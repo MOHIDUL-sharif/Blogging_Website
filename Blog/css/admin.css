@@ -1,0 +1,26 @@
+
+a{
+    text-decoration: none !important;
+    color: white;
+}
+
+
+.mtop-20{
+	margin-top: 70px;
+}
+
+.tableimage{
+    height: 65px;
+    width: 65px;
+}
+
+.table-icon{
+    background-color: red;
+    padding: 2px 4px;
+    border: none;
+    outline: none;
+    color: white !important;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
