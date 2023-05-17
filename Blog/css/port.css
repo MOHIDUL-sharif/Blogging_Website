@@ -1,0 +1,135 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    font-family: serif;
+}
+h1{
+    font-size: 65px;
+    
+}
+.orange-color{
+    color: darkorange;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+p{
+    color: dimgray;
+}
+.half img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("../image/img/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+#cycle{
+    border-radius: 150px;
+}
+.dream-area{
+    background-image: url("../image/img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+   
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experience{
+    background-image: url("../image/img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+nav {
+  background-color: #FB6655;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #7AA3C9;
+}
+.contact-info {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-info h2 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.contact-info i {
+  color: #ff9800;
+  font-size: 24px;
+  margin-right: 10px;
+}
